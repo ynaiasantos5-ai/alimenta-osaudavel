@@ -1,0 +1,174 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#FFF8E7;
+color:#333;
+}
+
+/* HEADER */
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#fff;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo .icon{
+width:40px;
+height:40px;
+border-radius:50%;
+background:#FFC1CC;
+}
+
+.logo h1{
+font-size:18px;
+}
+
+.logo span{
+font-size:12px;
+color:#777;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.btn-user{
+background:#FFC1CC;
+border:none;
+padding:10px 18px;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* HERO */
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px;
+background:linear-gradient(90deg,#FFF8E7,#FFC1CC);
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.tag{
+background:#F4D35E;
+padding:5px 10px;
+border-radius:10px;
+font-size:12px;
+}
+
+.hero h2{
+font-size:38px;
+margin:15px 0;
+}
+
+.hero p{
+font-size:14px;
+margin-bottom:20px;
+}
+
+.btn-primary{
+background:#B8E6B8;
+border:none;
+padding:10px 15px;
+border-radius:20px;
+cursor:pointer;
+margin-right:10px;
+}
+
+.btn-secondary{
+background:#FFC1CC;
+border:none;
+padding:10px 15px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.hero-img img{
+width:400px;
+border-radius:20px;
+}
+
+/* BENEFITS */
+.benefits{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:15px;
+padding:40px;
+text-align:center;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* INFO */
+.info{
+padding:50px;
+text-align:center;
+}
+
+.steps{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.step{
+background:#B8E6B8;
+padding:15px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* BANNER */
+.banner{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:40px;
+margin:40px;
+background:#FFC1CC;
+border-radius:20px;
+}
+
+.banner button{
+background:#F4D35E;
+border:none;
+padding:10px 15px;
+border-radius:20px;
+cursor:pointer;
+}
